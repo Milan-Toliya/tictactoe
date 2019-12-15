@@ -2,6 +2,8 @@
 
 using namespace std;
 
+
+
 int counter=1;
 int mat[9]{1,1,1,1,1,1,1,1,1};
 int matuse[9]{0,0,0,0,0,0,0,0,0};
@@ -18,7 +20,7 @@ if (((mat[0] == mat[1] && mat[1] == mat [2] && mat[2] == mat[0]) && mat[1] != 1)
     ((mat[0] == mat[4] && mat[4] == mat [8] && mat[8] == mat[0]) && mat[4] != 1) ||
     ((mat[2] == mat[4] && mat[4] == mat [6] && mat[6] == mat[2]) && mat[4] != 1)
     ){
-        cout<<"\nWinner is player "<<caller<<endl;
+        cout<<"\n Winner is player "<<caller<<endl;
         return 1;
      }
 else return 0;
